@@ -1,0 +1,45 @@
+#footer{
+    background: var(--primary-dark-color);
+    padding: 2rem 0rem;
+}
+#copyright{
+    background: #15863D;
+    padding: 1rem 0rem;
+}
+
+#copyright .container{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#copyright div p{
+    color: var(--white);
+}
+
+address, address > b{
+    color: var(--white);
+    font-style: normal;
+}
+
+.container{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.item{
+    width: 100%;
+    min-height: 20px;
+    color: var(--white);
+}
+
+.item h3{
+    color: var(--white);
+    text-align: center;
+}
