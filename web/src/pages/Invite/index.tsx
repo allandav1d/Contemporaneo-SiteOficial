@@ -7,7 +7,7 @@ import logo from '../../assets/logo.svg';
 
 const Invite = () => {
   return (
-    <div id="page-home">
+    <div id="page-invite">
             <div className="content">
                 <header>
                     <img src={logo} alt="Contemporâneo"/>

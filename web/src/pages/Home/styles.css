@@ -1,3 +1,40 @@
+#page-home{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#page-home .header-container{
+ position: relative;
+ padding-left: 2rem;
+ padding-top: 5rem;
+ width: 75%;
+ top: 0;
+ margin-bottom: 10rem;
+}
+
+#page-home img{
+ position: absolute;
+ width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+#page-home .header-container h1{
+    color: var(--white);
+}
+
+#page-home .header-container p{
+    color: var(--white);
+    padding: 3rem 1rem;
+}
+
+#page-home .header-container a{
+    color: var(--white);
+    padding-top: 1.5rem;
+    text-decoration: none;
+}
+
 #container{
     display: flex;
     align-items: center;
@@ -8,23 +45,24 @@
     flex-direction: column;
     background: #F5F5F8;
     border-radius: .9rem;
+    padding: 3rem 2rem;
 }
 
-.content-row{
+#container .content-row{
     display: flex;
     align-items: center;
     flex-direction: row;
     padding: 4rem 1.5rem;
 }
 
-.content-column{
+#container .content-column{
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 4rem 1.5rem;
 }
 
-.itens{
+#container .itens{
     align-items: center;
     justify-items: center;
     padding: 4rem 1.5rem;
@@ -34,82 +72,96 @@ b, span{
     color: var(--primary-dark-color);
 }
 
-.text-justify{
+#container .text-justify{
     text-align: justify;
     padding: 0rem 1rem;
     font-size: 1.6rem;
 }
 
-.text-center{
+#container .text-center{
     text-align: center;
     padding-bottom: 2rem;
     font-size: 2.6rem;
 }
 
-.text-spotlight{
+#container .text-spotlight{
     padding: 1rem 5rem;
     text-align: center;
     font-size: 3.6rem;
 }
 
-.gray{
+#container .gray{
     background: var(--graystorm);
 }
 
-.img-est{
+#container .img-est{
     width: 50%;
 }
 
-.img-pilares{
+#container .img-pilares{
     width: 90%;
 }
 
-
-
-.cards{
-    width: 90%;
-    max-width: 980px;
-    margin: auto;
-    margin-top: 5rem;
-
+.cards-background .cards{
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
     grid-gap: 20px;
     justify-content: center;
     align-content: center;
     z-index: 9;
+    position: relative;
+    bottom: 10rem;
 }
 
 .cards-background{
     background: var(--primary-dark-color);
-    min-height: 24rem;
+    height: 18rem;
     width: 100%;
-    position: relative;
-    top: -19rem;
-    bottom: 0rem;
     z-index: 0;
+    margin-top: 10rem;
 }
 
-.card{
+.cards-background .cards .card{
     display: grid;
     justify-items: center;
     grid-gap: 5px;
+}
+
+.card h4, .card h5{
+    min-height: 3rem;
+    text-align: center;
 }
 
 .img-card{
     width: 100%;
 }
 
-@media only screen and (max-width: 420px) {
-    .content-row{
+@media only screen and (max-width: 647px) {
+    .cards-background .cards{
+        grid-template-columns: repeat(4, minmax(80px, 1fr));
+        grid-gap: 5px;
+    }
+
+    .cards-background{
+        background: var(--primary-dark-color);
+        height: 13rem;
+        width: 100%;
+        z-index: 0;
+        margin-top: 6rem;
+    }
+
+    #container .content-row{
         flex-direction: column;
     }
 
-    .text-justify{
+    #container .text-justify{
         padding: 3rem 1rem;
     }
 
-    .img-est{
+    #container .img-est{
         width: 90%;
     }
 
@@ -118,8 +170,35 @@ b, span{
         top: -12rem;
     }
 
-    .text-spotlight{
+    #container .text-spotlight{
         font-size: 2.2rem;
         padding: 1rem 2rem;
     }
+
+    #page-home{
+        display: none;
+    }
+
+    #page-home .header-container{
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 2.5rem;
+        width: 77%;
+        top: 0;
+        margin-bottom: 2rem;
+       }
+       
+       #page-home img{
+        position: absolute;
+        width: 100%;
+       }
+       
+       #page-home .header-container h1{
+           font-size: 2.1rem;
+       }
+       
+       #page-home .header-container p{
+           padding: 1.6rem 0rem;
+           font-size: 1.6rem;
+       }
   }
