@@ -27,6 +27,7 @@
 #page-ensino .box .row {
     display: grid;
     align-items: center;
+    justify-items: center;
 }
 
 #page-ensino .box .row .image{

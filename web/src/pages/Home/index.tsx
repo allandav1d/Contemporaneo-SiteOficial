@@ -64,17 +64,17 @@ const Home = () => {
               <div className="card">
               <img className="img-card" src={MariliaProfile} alt="Marilía Westin"/>
               <h4>Marilía Westin</h4>
-              <h5>Coord. pedagógica</h5>
+              <h5>Pedagógica</h5>
             </div>
             <div className="card">
               <img className="img-card" src={AllanProfile} alt="Allan Amorim"/>
               <h4>Allan Amorim</h4>
-              <h5>Coord. Desenvolvimento de Sistemas</h5>
+              <h5>Desenvolvimento de Sistemas</h5>
             </div>
             <div className="card">
               <img className="img-card" src={YoshioProfile} alt="Tiago Obeid"/>
               <h4>Tiago Obeid</h4>
-              <h5>Coord. Relacionamento</h5>
+              <h5>Relacionamento</h5>
             </div>
           </div>
         </div>

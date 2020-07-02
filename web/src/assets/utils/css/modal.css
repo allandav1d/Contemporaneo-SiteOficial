@@ -1,0 +1,54 @@
+#modal{
+    display: none;
+}
+
+#modal.on{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color:#011627de;
+    z-index: 10;
+
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#modal .body{
+    width: 90vw;
+    height: 80vh;
+    background: var(--white);
+    border-radius: 1rem;
+    
+    transition-duration: .5s;
+}
+
+#modal .body header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+#modal .body header .close svg{
+    width: 4rem;
+    height: 4rem;
+}
+
+#modal .body .content{
+    display: block;
+    justify-content: flex-end;
+    padding: 2rem 5rem;
+}
+
+#modal .body h1{
+    padding-bottom: 2rem;
+}
+
+#modal .body p{
+    text-align: justify;
+}
