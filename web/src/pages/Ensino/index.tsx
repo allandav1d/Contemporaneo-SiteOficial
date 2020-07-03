@@ -29,8 +29,8 @@ const Ensino = () => {
         setText("A Tutoria Pedagógica tem como objetivo orientar o educando diante das suas dificuldades escolares e é ministrada por um educador tutor vinculado à área do conhecimento sobre a qual o aluno apresenta menos afinidade. O tutor se preocupará em propor novos métodos de construção do conhecimento e auxiliar na organização da rotina escolar, visando o desenvolvimento de autonomia por parte do educando. Quando necessário, o tutor recomendará intervenções específicas de educadores especialistas, sob os moldes de Reforço ou de Acompanhamento Escolar. A Tutoria conta com relatórios de desenvolvimento, enviados às famílias a cada bimestre.")
         break;
       case 1:
-        setTitle("Acompanhamento Escolar:")
-        setText("Por se tratar de uma intervenção realizada no decorrer de um período mais longo, além de revisar os conteúdos vistos em sala, no Acompanhamento Escolar o educador especialista na disciplina em questão se preocupará em desenvolver, junto ao educando, novos métodos de construção do conhecimento a partir da sua necessidade específica. Para otimizar o trabalho, contamos com relatórios de desenvolvimento, enviados às famílias a cada bimestre.")
+        setTitle("Acompanhamento Escolar")
+        setText("Por se tratar de uma intervenção realizada no decorrer de um período mais longo, além de revisar os conteúdos vistos em sala, no Acompanhamento Escolar, o educador especialista na disciplina em questão se preocupará em desenvolver, junto ao educando, novos métodos de construção do conhecimento a partir da sua necessidade específica. Para otimizar o trabalho, contamos com relatórios de desenvolvimento, enviados às famílias a cada bimestre.")
         break;
       case 2:
         setTitle("Reforço Escolar")
@@ -106,7 +106,7 @@ const Ensino = () => {
                 <p className="text-justify">A direção é responsável por articular os setores de relacionamento e pedagógico, traçar metas e garantir a execução dos planejamentos elaborados. Fica também a encargo da direção a administração financeira do Contemporâneo.</p>
                 <h3>Coord. Relacionamento</h3>
                 <p className="text-justify">A coordenação de relacionamento é responsável por garantir a qualidade das atividades prestadas e atua como uma ponte entre a secretaria, as famílias e os educadores.</p>
-                <h3>Coord. Pedagógico</h3>
+                <h3>Coord. Pedagógica</h3>
                 <p className="text-justify">A coordenação pedagógica é responsável por traçar, ao lado dos educadores, estratégias individuais de ensino-aprendizagem que respeitem a forma de aprender de cada educando, alinhar as expectativas com as famílias e os demais profissionais que atuam junto ao educando e, caso necessário, sugerir encaminhamentos para outros profissionais.</p>
                 <h3>Coord. Desenvolvimento</h3>
                 <p className="text-justify">A coordenação de desenvolvimento de sistemas é responsável por planejar, coordenar e executar os projetos de novos portais. Fica também a encargo dessa coordenação arquitetar e dirigir os novos sistemas do Contemporâneo, elaborar propostas para novos projetos, documentar e informatizar processos internos.</p>

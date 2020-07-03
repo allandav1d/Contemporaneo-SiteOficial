@@ -14,7 +14,7 @@ const Instituicao = () => {
           <div className="content-row">
             <h1>Nossa história</h1>
             <video src={institucionalVideo} controls></video>
-            <p>O Contemporâneo iniciou suas atividades em 1986. Na época, o educador José Yoshio K. Malheiros, diretor do Contemporâneo, lecionava nas residências dos alunos. Em 1995, em razão da crescente procura por educadores particulares de diversas disciplinas, o Contemporâneo passou a ocupar um espaço fixo de atendimento e a contar com uma equipe de 7 educadores. Devido aos excelentes resultados obtidos no decorrer dos anos seguintes, hoje, a equipe Contemporâneo possui +40 educadores formados nas melhores universidades do país.</p>
+            <p>O Contemporâneo iniciou suas atividades em 1986. Na época, o educador José Yoshio K. Malheiros, diretor do Contemporâneo, lecionava nas residências dos alunos. Em 1995, em razão da crescente procura por educadores particulares de diversas disciplinas, o Contemporâneo passou a ocupar um espaço fixo de atendimento e a contar com uma equipe de 7 educadores. Devido aos excelentes resultados obtidos no decorrer dos anos seguintes, hoje, a equipe Contemporâneo possui mais de 40 educadores formados nas melhores universidades do país.</p>
           </div>
           <div className="content-row reverse">
             <h1>Nossa filosofia</h1>

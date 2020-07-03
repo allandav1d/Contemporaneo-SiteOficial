@@ -13,6 +13,7 @@ import PilaresCont from "../../assets/img/graphics/PilaresContemporaneo.svg";
 import YoshioProfile from "../../assets/img/profile/YoshioProfile.svg";
 import MariliaProfile from "../../assets/img/profile/MariliaProfile.svg";
 import AllanProfile from "../../assets/img/profile/AllanProfile.svg";
+import TiagoProfile from "../../assets/img/profile/TiagoProfile.svg";
 
 const Home = () => {
   return (
@@ -41,7 +42,7 @@ const Home = () => {
             </div>
             <div className="itens">
               <h2 className="text-center"><span>+40</span> educadores especialistas disponíveis.</h2>
-              <p className="text-justify"><span>Contar com o Contemporâneo é</span> contar com educadores especialistas disponíveis para diversos modelos de aulas, ministradas em nosso centro educacional ou na residência dos educandos.</p>
+              <p className="text-justify"><span>Contar com o Contemporâneo é</span> contar com educadores especialistas disponíveis para diversos modelos de aulas, ministradas em nosso centro educacional, remotamente ou na residência dos educandos.</p>
             </div>
             <div className="itens">
               <h2 className="text-center"><span>+170.000</span> horas de aulas aplicadas.</h2>
@@ -64,7 +65,7 @@ const Home = () => {
               <div className="card">
               <img className="img-card" src={MariliaProfile} alt="Marilía Westin"/>
               <h4>Marilía Westin</h4>
-              <h5>Pedagógica</h5>
+              <h5>Coordenação Pedagógica</h5>
             </div>
             <div className="card">
               <img className="img-card" src={AllanProfile} alt="Allan Amorim"/>
@@ -72,7 +73,7 @@ const Home = () => {
               <h5>Desenvolvimento de Sistemas</h5>
             </div>
             <div className="card">
-              <img className="img-card" src={YoshioProfile} alt="Tiago Obeid"/>
+              <img className="img-card" src={TiagoProfile} alt="Tiago Obeid"/>
               <h4>Tiago Obeid</h4>
               <h5>Relacionamento</h5>
             </div>

@@ -16,7 +16,7 @@ const Contato = () => {
         <div id="page-contato">
           <div className="box">
           <h2>Atendimento</h2>
-          <p>Nossa secretaria esta a um click de solucionar ou resolver qualquer dúvida.</p>
+          <p>Nossa secretaria está a um clique de você.</p>
           <a className="whatsapp" href={whatsapp} target="_blank"><img src={LogoWhatsapp}/>Whatsapp</a>
           </div>
           <div className="box">
