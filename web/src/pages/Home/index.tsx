@@ -72,11 +72,6 @@ const Home = () => {
               <h4>Allan Amorim</h4>
               <h5>Desenvolvimento de Sistemas</h5>
             </div>
-            <div className="card">
-              <img className="img-card" src={TiagoProfile} alt="Tiago Obeid"/>
-              <h4>Tiago Obeid</h4>
-              <h5>Relacionamento</h5>
-            </div>
           </div>
         </div>
         <Footer />

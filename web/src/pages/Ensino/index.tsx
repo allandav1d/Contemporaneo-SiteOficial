@@ -104,8 +104,6 @@ const Ensino = () => {
               <div>
                 <h3>Direção</h3>
                 <p className="text-justify">A direção é responsável por articular os setores de relacionamento e pedagógico, traçar metas e garantir a execução dos planejamentos elaborados. Fica também a encargo da direção a administração financeira do Contemporâneo.</p>
-                <h3>Coord. Relacionamento</h3>
-                <p className="text-justify">A coordenação de relacionamento é responsável por garantir a qualidade das atividades prestadas e atua como uma ponte entre a secretaria, as famílias e os educadores.</p>
                 <h3>Coord. Pedagógica</h3>
                 <p className="text-justify">A coordenação pedagógica é responsável por traçar, ao lado dos educadores, estratégias individuais de ensino-aprendizagem que respeitem a forma de aprender de cada educando, alinhar as expectativas com as famílias e os demais profissionais que atuam junto ao educando e, caso necessário, sugerir encaminhamentos para outros profissionais.</p>
                 <h3>Coord. Desenvolvimento</h3>

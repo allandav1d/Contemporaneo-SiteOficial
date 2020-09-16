@@ -105,9 +105,9 @@ b, span{
 .cards-background .cards{
     display: grid;
     width: 80%;
-    max-width: 750px;
+    max-width: 570px;
     margin: auto;
-    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-gap: 20px;
     justify-content: center;
     align-content: center;
@@ -141,7 +141,8 @@ b, span{
 
 @media only screen and (max-width: 647px) {
     .cards-background .cards{
-        grid-template-columns: repeat(4, minmax(80px, 1fr));
+        max-width: 270px;
+        grid-template-columns: repeat(3, minmax(80px, 1fr));
         grid-gap: 5px;
     }
 
